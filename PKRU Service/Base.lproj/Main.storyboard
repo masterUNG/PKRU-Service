@@ -124,7 +124,7 @@
                                         <barButtonItem key="leftBarButtonItem" image="ic_keyboard_arrow_left_2x.png" id="dBo-Eg-o97">
                                             <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="7jg-Gg-4LY"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="BackHome" id="7jg-Gg-4LY"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="IPP-ct-OHm">
@@ -203,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UFv-hN-PbL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798" y="36"/>
+            <point key="canvasLocation" x="1039" y="102"/>
         </scene>
     </scenes>
     <resources>

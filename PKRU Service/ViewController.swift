@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //Implicit
+    var mySting = ""
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
