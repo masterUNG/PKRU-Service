@@ -14,6 +14,13 @@
 		C430EC6A1F2AE1210019907F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C430EC681F2AE1210019907F /* LaunchScreen.storyboard */; };
 		C430EC721F2AE25F0019907F /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC711F2AE25F0019907F /* logo_40pkru.png */; };
 		C430EC741F2AE4A00019907F /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC731F2AE4A00019907F /* bg_pkru.png */; };
+		C430EC781F2AF3640019907F /* ic_exit_to_app_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC751F2AF3640019907F /* ic_exit_to_app_2x.png */; };
+		C430EC791F2AF3640019907F /* ic_exit_to_app_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC761F2AF3640019907F /* ic_exit_to_app_3x.png */; };
+		C430EC7A1F2AF3640019907F /* ic_exit_to_app.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC771F2AF3640019907F /* ic_exit_to_app.png */; };
+		C430EC7E1F2AF46D0019907F /* ic_group_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC7B1F2AF46D0019907F /* ic_group_add_2x.png */; };
+		C430EC7F1F2AF46D0019907F /* ic_group_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC7C1F2AF46D0019907F /* ic_group_add_3x.png */; };
+		C430EC801F2AF46D0019907F /* ic_group_add.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC7D1F2AF46D0019907F /* ic_group_add.png */; };
+		C430EC821F2AF5750019907F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C430EC811F2AF5750019907F /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		C430EC6B1F2AE1210019907F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C430EC711F2AE25F0019907F /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = "../../../../Desktop/logoPkru 2/logo_40pkru.png"; sourceTree = "<group>"; };
 		C430EC731F2AE4A00019907F /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_pkru.png; path = ../../../../Desktop/bg_pkru/bg_pkru.png; sourceTree = "<group>"; };
+		C430EC751F2AF3640019907F /* ic_exit_to_app_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_2x.png; path = ../../../../Desktop/ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app_2x.png; sourceTree = "<group>"; };
+		C430EC761F2AF3640019907F /* ic_exit_to_app_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_3x.png; path = ../../../../Desktop/ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app_3x.png; sourceTree = "<group>"; };
+		C430EC771F2AF3640019907F /* ic_exit_to_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app.png; path = ../../../../Desktop/ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app.png; sourceTree = "<group>"; };
+		C430EC7B1F2AF46D0019907F /* ic_group_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_2x.png; path = ../../../../Desktop/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add_2x.png; sourceTree = "<group>"; };
+		C430EC7C1F2AF46D0019907F /* ic_group_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_3x.png; path = ../../../../Desktop/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add_3x.png; sourceTree = "<group>"; };
+		C430EC7D1F2AF46D0019907F /* ic_group_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add.png; path = ../../../../Desktop/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add.png; sourceTree = "<group>"; };
+		C430EC811F2AF5750019907F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +74,16 @@
 			children = (
 				C430EC5F1F2AE1210019907F /* AppDelegate.swift */,
 				C430EC711F2AE25F0019907F /* logo_40pkru.png */,
+				C430EC751F2AF3640019907F /* ic_exit_to_app_2x.png */,
+				C430EC7B1F2AF46D0019907F /* ic_group_add_2x.png */,
+				C430EC7C1F2AF46D0019907F /* ic_group_add_3x.png */,
+				C430EC7D1F2AF46D0019907F /* ic_group_add.png */,
+				C430EC761F2AF3640019907F /* ic_exit_to_app_3x.png */,
+				C430EC771F2AF3640019907F /* ic_exit_to_app.png */,
 				C430EC731F2AE4A00019907F /* bg_pkru.png */,
 				C430EC611F2AE1210019907F /* ViewController.swift */,
 				C430EC631F2AE1210019907F /* Main.storyboard */,
+				C430EC811F2AF5750019907F /* SignUpViewController.swift */,
 				C430EC661F2AE1210019907F /* Assets.xcassets */,
 				C430EC681F2AE1210019907F /* LaunchScreen.storyboard */,
 				C430EC6B1F2AE1210019907F /* Info.plist */,
@@ -131,9 +152,15 @@
 			files = (
 				C430EC741F2AE4A00019907F /* bg_pkru.png in Resources */,
 				C430EC721F2AE25F0019907F /* logo_40pkru.png in Resources */,
+				C430EC7F1F2AF46D0019907F /* ic_group_add_3x.png in Resources */,
+				C430EC791F2AF3640019907F /* ic_exit_to_app_3x.png in Resources */,
+				C430EC801F2AF46D0019907F /* ic_group_add.png in Resources */,
+				C430EC781F2AF3640019907F /* ic_exit_to_app_2x.png in Resources */,
+				C430EC7A1F2AF3640019907F /* ic_exit_to_app.png in Resources */,
 				C430EC6A1F2AE1210019907F /* LaunchScreen.storyboard in Resources */,
 				C430EC671F2AE1210019907F /* Assets.xcassets in Resources */,
 				C430EC651F2AE1210019907F /* Main.storyboard in Resources */,
+				C430EC7E1F2AF46D0019907F /* ic_group_add_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C430EC821F2AF5750019907F /* SignUpViewController.swift in Sources */,
 				C430EC621F2AE1210019907F /* ViewController.swift in Sources */,
 				C430EC601F2AE1210019907F /* AppDelegate.swift in Sources */,
 			);

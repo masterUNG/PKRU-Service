@@ -28,7 +28,13 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WrL-O7-eVH">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
-                                    <navigationItem title="Main Screen" id="Fxf-uq-te9"/>
+                                    <navigationItem title="Main Screen" id="Fxf-uq-te9">
+                                        <barButtonItem key="rightBarButtonItem" image="ic_group_add_2x.png" id="f9O-6n-SQP">
+                                            <connections>
+                                                <segue destination="2yz-lW-akI" kind="show" id="bM4-Jd-h2k"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_40pkru.png" translatesAutoresizingMaskIntoConstraints="NO" id="fYA-w6-h0b">
@@ -60,13 +66,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Rc-Xj-HzD">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vl9-Ct-bot"/>
+                                    <barButtonItem image="ic_exit_to_app_2x.png" id="AmO-Wv-R4q"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="cvJ-5N-FBm"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="7Rc-Xj-HzD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ASD-Cp-ssx"/>
                             <constraint firstItem="pIs-VJ-RTx" firstAttribute="top" secondItem="fYA-w6-h0b" secondAttribute="bottom" constant="32" id="FcC-jX-jff"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u8s-TM-r00" secondAttribute="bottom" id="K9w-Rd-MOr"/>
                             <constraint firstItem="u8s-TM-r00" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Lfh-51-eO4"/>
                             <constraint firstItem="4Yf-Bf-PQy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PRL-k3-0JJ"/>
+                            <constraint firstAttribute="trailing" secondItem="7Rc-Xj-HzD" secondAttribute="trailing" id="Q4p-Xj-AN6"/>
                             <constraint firstItem="fYA-w6-h0b" firstAttribute="top" secondItem="WrL-O7-eVH" secondAttribute="bottom" constant="24" id="TgL-8Q-FlV"/>
                             <constraint firstItem="4Yf-Bf-PQy" firstAttribute="top" secondItem="pIs-VJ-RTx" secondAttribute="bottom" constant="8" id="Xg7-Aq-EYm"/>
                             <constraint firstItem="WrL-O7-eVH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fhH-mG-O9y"/>
@@ -76,15 +92,36 @@
                             <constraint firstItem="pIs-VJ-RTx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lnM-mF-veM"/>
                             <constraint firstItem="fYA-w6-h0b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n5y-pN-QDY"/>
                             <constraint firstItem="WrL-O7-eVH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="snl-Rf-rkb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7Rc-Xj-HzD" secondAttribute="bottom" id="ssM-Kg-Cjl"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="7Ij-2g-iXD">
+            <objects>
+                <viewController id="2yz-lW-akI" customClass="SignUpViewController" customModule="PKRU_Service" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ObH-0Y-LKW"/>
+                        <viewControllerLayoutGuide type="bottom" id="7ea-tO-Kzk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LOA-8E-0pg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UFv-hN-PbL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="798" y="36"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bg_pkru.png" width="1000" height="543"/>
+        <image name="ic_exit_to_app_2x.png" width="48" height="48"/>
+        <image name="ic_group_add_2x.png" width="48" height="48"/>
         <image name="logo_40pkru.png" width="500" height="591"/>
     </resources>
 </document>
