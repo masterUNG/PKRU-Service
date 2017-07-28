@@ -12,6 +12,8 @@
 		C430EC651F2AE1210019907F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C430EC631F2AE1210019907F /* Main.storyboard */; };
 		C430EC671F2AE1210019907F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C430EC661F2AE1210019907F /* Assets.xcassets */; };
 		C430EC6A1F2AE1210019907F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C430EC681F2AE1210019907F /* LaunchScreen.storyboard */; };
+		C430EC721F2AE25F0019907F /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC711F2AE25F0019907F /* logo_40pkru.png */; };
+		C430EC741F2AE4A00019907F /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC731F2AE4A00019907F /* bg_pkru.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C430EC661F2AE1210019907F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C430EC691F2AE1210019907F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C430EC6B1F2AE1210019907F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C430EC711F2AE25F0019907F /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = "../../../../Desktop/logoPkru 2/logo_40pkru.png"; sourceTree = "<group>"; };
+		C430EC731F2AE4A00019907F /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_pkru.png; path = ../../../../Desktop/bg_pkru/bg_pkru.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				C430EC5F1F2AE1210019907F /* AppDelegate.swift */,
+				C430EC711F2AE25F0019907F /* logo_40pkru.png */,
+				C430EC731F2AE4A00019907F /* bg_pkru.png */,
 				C430EC611F2AE1210019907F /* ViewController.swift */,
 				C430EC631F2AE1210019907F /* Main.storyboard */,
 				C430EC661F2AE1210019907F /* Assets.xcassets */,
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C430EC741F2AE4A00019907F /* bg_pkru.png in Resources */,
+				C430EC721F2AE25F0019907F /* logo_40pkru.png in Resources */,
 				C430EC6A1F2AE1210019907F /* LaunchScreen.storyboard in Resources */,
 				C430EC671F2AE1210019907F /* Assets.xcassets in Resources */,
 				C430EC651F2AE1210019907F /* Main.storyboard in Resources */,
