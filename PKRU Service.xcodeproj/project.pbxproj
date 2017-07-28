@@ -24,6 +24,9 @@
 		C430EC861F2AF78A0019907F /* ic_keyboard_arrow_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC831F2AF78A0019907F /* ic_keyboard_arrow_left_2x.png */; };
 		C430EC871F2AF78A0019907F /* ic_keyboard_arrow_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC841F2AF78A0019907F /* ic_keyboard_arrow_left_3x.png */; };
 		C430EC881F2AF78A0019907F /* ic_keyboard_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC851F2AF78A0019907F /* ic_keyboard_arrow_left.png */; };
+		C430EC8C1F2B181A0019907F /* ic_save_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC891F2B181A0019907F /* ic_save_2x.png */; };
+		C430EC8D1F2B181A0019907F /* ic_save_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC8A1F2B181A0019907F /* ic_save_3x.png */; };
+		C430EC8E1F2B181A0019907F /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = C430EC8B1F2B181A0019907F /* ic_save.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		C430EC831F2AF78A0019907F /* ic_keyboard_arrow_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_2x.png; path = ../../../../Desktop/ic_keyboard_arrow_left_black_24dp/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_2x.png; sourceTree = "<group>"; };
 		C430EC841F2AF78A0019907F /* ic_keyboard_arrow_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_3x.png; path = ../../../../Desktop/ic_keyboard_arrow_left_black_24dp/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_3x.png; sourceTree = "<group>"; };
 		C430EC851F2AF78A0019907F /* ic_keyboard_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left.png; path = ../../../../Desktop/ic_keyboard_arrow_left_black_24dp/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left.png; sourceTree = "<group>"; };
+		C430EC891F2B181A0019907F /* ic_save_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save_2x.png; sourceTree = "<group>"; };
+		C430EC8A1F2B181A0019907F /* ic_save_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save_3x.png; sourceTree = "<group>"; };
+		C430EC8B1F2B181A0019907F /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 			children = (
 				C430EC5F1F2AE1210019907F /* AppDelegate.swift */,
 				C430EC711F2AE25F0019907F /* logo_40pkru.png */,
+				C430EC891F2B181A0019907F /* ic_save_2x.png */,
+				C430EC8A1F2B181A0019907F /* ic_save_3x.png */,
+				C430EC8B1F2B181A0019907F /* ic_save.png */,
 				C430EC751F2AF3640019907F /* ic_exit_to_app_2x.png */,
 				C430EC7B1F2AF46D0019907F /* ic_group_add_2x.png */,
 				C430EC7C1F2AF46D0019907F /* ic_group_add_3x.png */,
@@ -164,11 +173,14 @@
 				C430EC7F1F2AF46D0019907F /* ic_group_add_3x.png in Resources */,
 				C430EC881F2AF78A0019907F /* ic_keyboard_arrow_left.png in Resources */,
 				C430EC791F2AF3640019907F /* ic_exit_to_app_3x.png in Resources */,
+				C430EC8D1F2B181A0019907F /* ic_save_3x.png in Resources */,
+				C430EC8C1F2B181A0019907F /* ic_save_2x.png in Resources */,
 				C430EC801F2AF46D0019907F /* ic_group_add.png in Resources */,
 				C430EC781F2AF3640019907F /* ic_exit_to_app_2x.png in Resources */,
 				C430EC7A1F2AF3640019907F /* ic_exit_to_app.png in Resources */,
 				C430EC6A1F2AE1210019907F /* LaunchScreen.storyboard in Resources */,
 				C430EC671F2AE1210019907F /* Assets.xcassets in Resources */,
+				C430EC8E1F2B181A0019907F /* ic_save.png in Resources */,
 				C430EC861F2AF78A0019907F /* ic_keyboard_arrow_left_2x.png in Resources */,
 				C430EC651F2AE1210019907F /* Main.storyboard in Resources */,
 				C430EC7E1F2AF46D0019907F /* ic_group_add_2x.png in Resources */,
@@ -349,6 +361,7 @@
 				C430EC701F2AE1210019907F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

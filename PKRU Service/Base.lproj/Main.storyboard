@@ -111,6 +111,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_pkru.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q3v-jL-fuI">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGK-tf-mHZ">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
@@ -120,14 +123,55 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="7jg-Gg-4LY"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="IPP-ct-OHm"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Ih-Gv-ld9">
+                                <rect key="frame" x="67.5" y="115" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="0oM-PW-s2R"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DJp-aj-rPb">
+                                <rect key="frame" x="67.5" y="173" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="S4L-Ia-Ksg"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dui-fc-Xl6">
+                                <rect key="frame" x="67.5" y="234" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="vsn-Ko-ssP"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="IGK-tf-mHZ" firstAttribute="leading" secondItem="LOA-8E-0pg" secondAttribute="leading" id="0pt-ZZ-X4B"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q3v-jL-fuI" secondAttribute="trailing" id="3sY-LE-we8"/>
+                            <constraint firstItem="7ea-tO-Kzk" firstAttribute="top" secondItem="Q3v-jL-fuI" secondAttribute="bottom" id="3tO-ML-RC6"/>
+                            <constraint firstItem="Q3v-jL-fuI" firstAttribute="top" secondItem="ObH-0Y-LKW" secondAttribute="bottom" id="X8O-oh-sAM"/>
+                            <constraint firstItem="dui-fc-Xl6" firstAttribute="centerX" secondItem="LOA-8E-0pg" secondAttribute="centerX" id="XrD-NI-U62"/>
+                            <constraint firstItem="DJp-aj-rPb" firstAttribute="centerX" secondItem="LOA-8E-0pg" secondAttribute="centerX" id="bsR-98-MHF"/>
+                            <constraint firstItem="dui-fc-Xl6" firstAttribute="top" secondItem="DJp-aj-rPb" secondAttribute="bottom" constant="31" id="gyl-0l-3n6"/>
+                            <constraint firstItem="3Ih-Gv-ld9" firstAttribute="top" secondItem="IGK-tf-mHZ" secondAttribute="bottom" constant="51" id="hSc-1S-jjh"/>
+                            <constraint firstItem="3Ih-Gv-ld9" firstAttribute="centerX" secondItem="LOA-8E-0pg" secondAttribute="centerX" id="ibb-wo-ic8"/>
                             <constraint firstAttribute="trailing" secondItem="IGK-tf-mHZ" secondAttribute="trailing" id="iu7-RZ-apK"/>
+                            <constraint firstItem="Q3v-jL-fuI" firstAttribute="leading" secondItem="LOA-8E-0pg" secondAttribute="leadingMargin" id="lPr-lX-N8T"/>
+                            <constraint firstItem="DJp-aj-rPb" firstAttribute="top" secondItem="3Ih-Gv-ld9" secondAttribute="bottom" constant="28" id="n0V-Xj-XRr"/>
                             <constraint firstItem="IGK-tf-mHZ" firstAttribute="top" secondItem="ObH-0Y-LKW" secondAttribute="bottom" id="yoO-qj-Vnf"/>
                         </constraints>
                     </view>
@@ -142,6 +186,7 @@
         <image name="ic_exit_to_app_2x.png" width="48" height="48"/>
         <image name="ic_group_add_2x.png" width="48" height="48"/>
         <image name="ic_keyboard_arrow_left_2x.png" width="48" height="48"/>
+        <image name="ic_save_2x.png" width="48" height="48"/>
         <image name="logo_40pkru.png" width="500" height="591"/>
     </resources>
 </document>
