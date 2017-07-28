@@ -67,6 +67,34 @@ class SignUpViewController: UIViewController {
         let strPHP: String = strFontPHP + "\(strName)&User=\(strUser)&Password=\(strPassword)"
         print("strPHP ==> \(strPHP)")
         
+        let masterPHP = strPHP
+        let myURL = URL(string: masterPHP)
+        let request = NSMutableURLRequest(url: myURL!)
+        let task = URLSession.shared.dataTask(with: request as URLRequest){
+            data, response, error in
+            
+            if error != nil {
+            
+                print("Error ==> \(String(describing: error))")
+            
+            } else {
+            
+                if let unwrappedData = data {
+                
+                    let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
+                    let strResult = dataString as Any
+                    print("strResult ==> \(strResult)")
+                    
+                }   //if
+            
+            }   // if
+        
+        }   // task
+        task.resume()
+        
+        
+        
+        
         
         
     }   // uploadToServer
