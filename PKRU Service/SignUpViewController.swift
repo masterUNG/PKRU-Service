@@ -88,6 +88,13 @@ class SignUpViewController: UIViewController {
                     let myResult: String = strResult as! String
                     print("myResult ==> \(myResult)")
                     
+                    if myResult == "True" {
+                        print("Upload OK")
+                        
+                    } else {
+                        print("Cannot Upload To Server")
+                    }
+                    
                 }   //if
             
             }   // if
