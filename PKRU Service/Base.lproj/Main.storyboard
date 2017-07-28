@@ -30,6 +30,7 @@
                                 <items>
                                     <navigationItem title="Main Screen" id="Fxf-uq-te9">
                                         <barButtonItem key="rightBarButtonItem" image="ic_group_add_2x.png" id="f9O-6n-SQP">
+                                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <segue destination="2yz-lW-akI" kind="show" id="bM4-Jd-h2k"/>
                                             </connections>
@@ -70,7 +71,9 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="vl9-Ct-bot"/>
-                                    <barButtonItem image="ic_exit_to_app_2x.png" id="AmO-Wv-R4q"/>
+                                    <barButtonItem image="ic_exit_to_app_2x.png" id="AmO-Wv-R4q">
+                                        <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="cvJ-5N-FBm"/>
                                 </items>
                             </toolbar>
@@ -119,11 +122,13 @@
                                 <items>
                                     <navigationItem title="Sign Up" id="NBi-Td-piH">
                                         <barButtonItem key="leftBarButtonItem" image="ic_keyboard_arrow_left_2x.png" id="dBo-Eg-o97">
+                                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="show" id="7jg-Gg-4LY"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="IPP-ct-OHm">
+                                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <action selector="saveButton:" destination="2yz-lW-akI" id="8MO-DM-NUJ"/>
                                             </connections>
