@@ -123,7 +123,11 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="7jg-Gg-4LY"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="IPP-ct-OHm"/>
+                                        <barButtonItem key="rightBarButtonItem" image="ic_save_2x.png" id="IPP-ct-OHm">
+                                            <connections>
+                                                <action selector="saveButton:" destination="2yz-lW-akI" id="8MO-DM-NUJ"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -157,24 +161,40 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IM3-aO-H1a">
+                                <rect key="frame" x="16" y="305" width="343" height="0.0"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="IGK-tf-mHZ" firstAttribute="leading" secondItem="LOA-8E-0pg" secondAttribute="leading" id="0pt-ZZ-X4B"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Q3v-jL-fuI" secondAttribute="trailing" id="3sY-LE-we8"/>
                             <constraint firstItem="7ea-tO-Kzk" firstAttribute="top" secondItem="Q3v-jL-fuI" secondAttribute="bottom" id="3tO-ML-RC6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IM3-aO-H1a" secondAttribute="trailing" id="58o-Nk-cAm"/>
+                            <constraint firstItem="IM3-aO-H1a" firstAttribute="leading" secondItem="LOA-8E-0pg" secondAttribute="leadingMargin" id="UM0-RK-MYV"/>
                             <constraint firstItem="Q3v-jL-fuI" firstAttribute="top" secondItem="ObH-0Y-LKW" secondAttribute="bottom" id="X8O-oh-sAM"/>
                             <constraint firstItem="dui-fc-Xl6" firstAttribute="centerX" secondItem="LOA-8E-0pg" secondAttribute="centerX" id="XrD-NI-U62"/>
+                            <constraint firstItem="IM3-aO-H1a" firstAttribute="top" secondItem="dui-fc-Xl6" secondAttribute="bottom" constant="41" id="Zr2-mL-5M7"/>
                             <constraint firstItem="DJp-aj-rPb" firstAttribute="centerX" secondItem="LOA-8E-0pg" secondAttribute="centerX" id="bsR-98-MHF"/>
                             <constraint firstItem="dui-fc-Xl6" firstAttribute="top" secondItem="DJp-aj-rPb" secondAttribute="bottom" constant="31" id="gyl-0l-3n6"/>
                             <constraint firstItem="3Ih-Gv-ld9" firstAttribute="top" secondItem="IGK-tf-mHZ" secondAttribute="bottom" constant="51" id="hSc-1S-jjh"/>
                             <constraint firstItem="3Ih-Gv-ld9" firstAttribute="centerX" secondItem="LOA-8E-0pg" secondAttribute="centerX" id="ibb-wo-ic8"/>
                             <constraint firstAttribute="trailing" secondItem="IGK-tf-mHZ" secondAttribute="trailing" id="iu7-RZ-apK"/>
                             <constraint firstItem="Q3v-jL-fuI" firstAttribute="leading" secondItem="LOA-8E-0pg" secondAttribute="leadingMargin" id="lPr-lX-N8T"/>
+                            <constraint firstItem="IM3-aO-H1a" firstAttribute="centerX" secondItem="LOA-8E-0pg" secondAttribute="centerX" id="lbx-us-I46"/>
                             <constraint firstItem="DJp-aj-rPb" firstAttribute="top" secondItem="3Ih-Gv-ld9" secondAttribute="bottom" constant="28" id="n0V-Xj-XRr"/>
                             <constraint firstItem="IGK-tf-mHZ" firstAttribute="top" secondItem="ObH-0Y-LKW" secondAttribute="bottom" id="yoO-qj-Vnf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="alertLabel" destination="IM3-aO-H1a" id="Kvn-h6-ajK"/>
+                        <outlet property="nameTextField" destination="3Ih-Gv-ld9" id="ywg-0J-k8L"/>
+                        <outlet property="passwordTextField" destination="dui-fc-Xl6" id="A1c-8s-Bzh"/>
+                        <outlet property="userTextField" destination="DJp-aj-rPb" id="qyr-PV-V0M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UFv-hN-PbL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
