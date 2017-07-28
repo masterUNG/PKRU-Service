@@ -73,19 +73,31 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="vl9-Ct-bot"/>
                                     <barButtonItem image="ic_exit_to_app_2x.png" id="AmO-Wv-R4q">
                                         <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="loginButton:" destination="BYZ-38-t0r" id="aVi-DF-LOw"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="cvJ-5N-FBm"/>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uhe-Vd-Opp">
+                                <rect key="frame" x="16" y="444" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="7Rc-Xj-HzD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ASD-Cp-ssx"/>
+                            <constraint firstItem="Uhe-Vd-Opp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FBl-vY-uR0"/>
                             <constraint firstItem="pIs-VJ-RTx" firstAttribute="top" secondItem="fYA-w6-h0b" secondAttribute="bottom" constant="32" id="FcC-jX-jff"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u8s-TM-r00" secondAttribute="bottom" id="K9w-Rd-MOr"/>
                             <constraint firstItem="u8s-TM-r00" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Lfh-51-eO4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uhe-Vd-Opp" secondAttribute="trailing" id="NDf-Iw-dG5"/>
                             <constraint firstItem="4Yf-Bf-PQy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PRL-k3-0JJ"/>
                             <constraint firstAttribute="trailing" secondItem="7Rc-Xj-HzD" secondAttribute="trailing" id="Q4p-Xj-AN6"/>
+                            <constraint firstItem="Uhe-Vd-Opp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="SFT-fy-Gn6"/>
                             <constraint firstItem="fYA-w6-h0b" firstAttribute="top" secondItem="WrL-O7-eVH" secondAttribute="bottom" constant="24" id="TgL-8Q-FlV"/>
                             <constraint firstItem="4Yf-Bf-PQy" firstAttribute="top" secondItem="pIs-VJ-RTx" secondAttribute="bottom" constant="8" id="Xg7-Aq-EYm"/>
                             <constraint firstItem="WrL-O7-eVH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fhH-mG-O9y"/>
@@ -96,8 +108,14 @@
                             <constraint firstItem="fYA-w6-h0b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n5y-pN-QDY"/>
                             <constraint firstItem="WrL-O7-eVH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="snl-Rf-rkb"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7Rc-Xj-HzD" secondAttribute="bottom" id="ssM-Kg-Cjl"/>
+                            <constraint firstItem="Uhe-Vd-Opp" firstAttribute="top" secondItem="4Yf-Bf-PQy" secondAttribute="bottom" constant="16" id="tnf-T6-MIb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="alertLabel" destination="Uhe-Vd-Opp" id="TmK-mj-zLt"/>
+                        <outlet property="passwordTextField" destination="4Yf-Bf-PQy" id="gcW-0P-2xJ"/>
+                        <outlet property="userTextField" destination="pIs-VJ-RTx" id="RPH-dE-mUB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
